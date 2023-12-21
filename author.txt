@@ -5,4 +5,4 @@
 - [code](https://github.com/gvicenteprieto/ShopCart_Alkemy)
 
 ### Deploy
-- [Link] (https://shop-cart-alkemy.vercel.app/)
+- [Link](https://shop-cart-alkemy.vercel.app/)

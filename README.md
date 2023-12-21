@@ -10,9 +10,6 @@
 
 - [Guillermo Vicente](https://github.com/gvicenteprieto)
 
-### installation
+### Deploy
 
-<!-- ```
-shell
-npm run dev
-``` -->
+- [Link](https://shop-cart-alkemy.vercel.app/)
