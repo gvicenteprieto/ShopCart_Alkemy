@@ -11,7 +11,7 @@ const Footer = () => {
               className="logo"
               id="logo"
               width="50px"
-              src="public/images/logo/shopCart.jpg"
+              src="../../public/images/logo/shopCart.jpg"
               alt="Logo"
             />
           </Link>
