@@ -1,5 +1,5 @@
 import { days, months } from "../../Utils/dates";
-import "./datesStyles.css";
+import "./DatesStyles.css";
 
 const Dates = () => {
   const today = new Date();
