@@ -139,7 +139,7 @@ const CartModal = ({ title, isOpen, setIsOpen }) => {
                   </>
                 )}
               </div>
-            ) : user.name === null (
+            ) : (
               <p className="buyerMsg">El carrito está vacío.</p>
             )}
           </div>
