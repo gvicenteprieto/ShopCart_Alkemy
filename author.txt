@@ -1,0 +1,5 @@
+### Author
+- [Author](https://github.com/gvicenteprieto/)
+
+### Repository
+- [code](https://github.com/gvicenteprieto/ShopCart_Alkemy)

@@ -1,0 +1,54 @@
+.dataBuyerForm p:first-child {
+  color: rgb(0, 0, 0);
+  margin-top: 3rem;
+}
+
+.dataBuyerForm p:nth-child(4) {
+  margin-top: 1rem;
+  color: rgb(0, 0, 0);
+}
+
+.dataBuyerForm form {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  padding: 5px;
+  align-content: center;
+  align-items: center;
+}
+
+.dataBuyerForm form input {
+  border: 1px solid #091b36;
+  border-radius: 5px;
+  padding: 5px;
+  font-size: 1rem;
+  font-weight: bold;
+  width: 70%;
+}
+
+.dataBuyerForm form input:focus {
+  outline: none;
+  border: 2px solid #091b36;
+}
+
+.dataBuyerForm form label {
+  color: #091b36;
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+.dataBuyerForm form button {
+  background-color: #2b8a2b;
+  border-radius: 5px;
+  border: 2px solid #ffffff;
+  padding: 15px;
+  color: #ffffff;
+  font-size: 20px;
+  font-weight: bold;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+.dataBuyerForm form button:hover {
+  color: #000000;
+}

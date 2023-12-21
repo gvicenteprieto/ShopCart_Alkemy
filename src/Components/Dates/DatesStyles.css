@@ -1,0 +1,12 @@
+.dates {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5px;
+    width: 100%;
+    height: 100%;
+    color: #918eba;
+    font-size: .75rem;
+    font-weight: 400;
+}

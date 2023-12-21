@@ -1,0 +1,228 @@
+html {
+  height: 100%;
+  margin: 0;
+  font-size: 18px;
+  font-family: "Bai Jamjuree", sans-serif;
+  font-weight: 400;
+  line-height: 1.5rem;
+  text-align: center;
+}
+
+body {
+  height: auto;
+  margin: 0;
+  padding: 0;
+  background-color: rgba(224, 227, 234, 0.133);
+}
+
+/* index.html */
+.main__index {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 800px;
+}
+
+.main__index h1 {
+  color: #282c34;
+  font-size: 1.5rem;
+  padding: 1rem;
+  margin: 0;
+}
+
+.main__index .section__products {
+  line-height: 0.1;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+}
+
+.main__index .section__products .products {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  flex-wrap: nowrap;
+  width: 100%;
+  
+}
+
+.main__index .section__products .products .product {
+  background-color: #3337;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 380px;
+  height: 275px;
+  padding: 5px;
+  margin: 15px;
+  border-radius: 5px;
+  border: 1px solid #5c0a67;
+  transition: all 0.3s ease-in-out;
+}
+
+.main__index .section__products .products .product .product__img {
+  width: 40%;
+  height: 225px;
+  margin: 15px;
+  border-radius: 10px;
+  border: 3px solid #091b36;
+  /* margin: 1rem; */
+  transition: all 0.3s ease-in-out;
+}
+
+.main__index .section__products .products .product .product__img:hover {
+  transform: scale(1.1);
+  border: 3px dotted #091b36;
+  height: 85%;
+  margin: 20px
+}
+
+.main__index .section__products .products .product .product__info {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  margin:0;
+  padding: 0
+  ;
+}
+
+.main__index .section__products .products .product .product__info .btnAddCart {
+  padding: 5px;
+  width: 50px;
+  height: 50px;
+  font-size: 16px;
+  border-radius: 5px;
+  background-color: #0d7880;
+  border: 1px solid #ffffff;
+  color: #ffffff;
+}
+
+/* .main__index
+  .section__products
+  .products
+  .product
+  .product__info
+  .product__name {
+  color: #5c0a67;
+  font-size: 1.1rem;
+  margin-top: 5px;
+} */
+
+/* .main__index
+  .section__products
+  .products
+  .product
+  .product__info
+  .product__brand {
+  font-size: 16px;
+  font-style: italic;
+  padding: 10px;
+  color: #0d7880;
+} */
+
+.main__index
+  .section__products
+  .products
+  .product
+  .product__info
+  .product__price {
+  font-size: 18px;
+  font-weight: bold;
+  padding: 10px;
+  color: #000000;
+}
+
+.main__index
+  .section__products
+  .products
+  .product
+  .product__info
+  .product__category {
+  font-weight: bold;
+  padding: 10px;
+  color: #0d7880;
+}
+
+
+
+.main__index
+  .section__products
+  .products
+  .product
+  .product__info
+  .btnAddCart:hover {
+  border: 3px solid #5c0a67;
+  border-radius: 5px;
+}
+
+.main__index .section__products .products .product:hover {
+  border: 3px solid #5c0a67;
+}
+
+.main__index .cart {
+  padding: 10px;
+  right: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+main h1 {
+  color: #ffffff;
+  font-size: 1.5rem;
+  padding: 1rem;
+  margin: 0;
+}
+
+main h3 {
+  color: #5c0a67;
+  font-size: 1rem;
+  padding-bottom: 0.5rem;
+}
+
+/* main a {
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+main a:hover {
+  color: #5c0a67;
+  text-decoration: none;
+  font-weight: bold;
+  transition: all 0.3s ease-in-out;
+} */
+
+/* error Page */
+.main__error {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  min-height: 700px;
+  color: #5c0a67;
+}
+
+.main__error h1 {
+  font-size: 2rem;
+  font-weight: 700;
+  margin: 10px;
+}
+
+.main__error h2 {
+  font-size: 1.75rem;
+  font-weight: 700;
+  margin: 10px;
+}
+
+.main__error img {
+  border: 5px solid rgb(241, 95, 11);
+  border-radius: 30%;
+  margin: 0;
+}
