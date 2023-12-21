@@ -9,3 +9,10 @@
 ### Author
 
 - [Guillermo Vicente](https://github.com/gvicenteprieto)
+
+### installation
+
+<!-- ```
+shell
+npm run dev
+``` -->
