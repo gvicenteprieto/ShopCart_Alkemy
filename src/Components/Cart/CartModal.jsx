@@ -66,8 +66,8 @@ const CartModal = ({ title, isOpen, setIsOpen }) => {
                   <div className="cart-item" key={item.id}>
                     <img
                       className="cart__img"
-                      src={item.image}
                       alt={item.title}
+                      src={item.image}
                     />
                     <h4> {item.title}</h4>
                     <p>Precio: $ {item.price}</p>

@@ -15,8 +15,12 @@ const CartProvider = ({ children }) => {
     item.quantity = isNaN(item.quantity) ? 0 : item.quantity;
     item.quantity = cart.find((i) => i.id === item.id) ? item.quantity + 1 : 1;
     const newCart = cart.filter((i) => i.id !== item.id);
-    localStorage.setItem("cart", JSON.stringify([...newCart, item]));
-    setCart([...newCart, item]);
+    newCart.push(item);
+    localStorage.setItem("cart", JSON.stringify(newCart));
+    if (newCart) {
+      setCart(newCart.sort((a, b) => a.title.localeCompare(b.title)));
+    }
+    console.log(newCart);
     toast.success("Producto agregado al carrito.");
   };
 
